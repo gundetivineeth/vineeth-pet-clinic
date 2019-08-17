@@ -1,4 +1,4 @@
-package vineeth.springframework.vineethpetclinic;
+package vineethpetclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
