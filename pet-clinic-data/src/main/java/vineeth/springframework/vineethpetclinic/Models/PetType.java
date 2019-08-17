@@ -1,6 +1,6 @@
 package vineeth.springframework.vineethpetclinic.Models;
 
-public class PetType {
+public class PetType extends BaseEntity{
     private String name;
 
     public String getName() {
