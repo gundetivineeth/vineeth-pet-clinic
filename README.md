@@ -49,10 +49,15 @@ Attached a Example of Spring DI in my github().
 *********************
 Annotations Used for DI
 
-1.AutoWired - Autowired is used to set the DI by default it is constructor (Autowired has name based , Constructor based ,clas based)
-2.Qualifier - Qualifier is used to remove redundance like for example in the above Github link i have implements same service in 3
- different classes if we dont put Qualifier then we wil get any error to solve this we use qualifier to which impl it should use
-3.primary - Class which is annotated with primary is used as DI if there are more than one impl as shown in the above github example
+1.@AutoWired - Autowired is used to set the DI by default it is constructor (Autowired has name based , Constructor based ,clas based)<br>
+byType : Object Type when the Object Types are same <br>
+byName : when the variable declared is same as that of pojo class<br>
+constructure : consturtor same constrcutre name<br>
+no: no type<br>
+
+2.@Qualifier - Qualifier is used to remove redundance like for example in the above Github link i have implements same service in 3
+ different classes if we dont put Qualifier then we wil get any error to solve this we use qualifier to which impl it should use<br>
+3.@primary - Class which is annotated with primary is used as DI if there are more than one impl as shown in the above github example<br>
 
 *******************
 
@@ -74,6 +79,19 @@ this will only activate when their is profile active mentioned.
 
 Here to use multi module we need to initially create modules using Intellj and then order the pom.xml
  
+*********************
+
+Spring FrameWork Stereotypes <br>
+
+@Component : Indicates that an annotated class is a "component" and it will be created as bean<br>
+@Controller : Indicates that an annotated class has role of controller in spring MVC <br>
+@RestController  : Indicates it has rest controller <br>
+@Repository : Indicates that an annotated class act as repository that send collection of object<br>
+@Service : mentions the class as a service model.
+
+*********************
+
+
 
 
 
