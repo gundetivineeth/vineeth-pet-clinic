@@ -1,11 +1,12 @@
 package vineeth.springframework.vineethpetclinic.services.Map;
 
+import org.springframework.stereotype.Service;
 import vineeth.springframework.vineethpetclinic.Models.Vet;
 import vineeth.springframework.vineethpetclinic.services.CrudService;
 import vineeth.springframework.vineethpetclinic.services.VetService;
 
 import java.util.Set;
-
+@Service
 public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
 
     @Override

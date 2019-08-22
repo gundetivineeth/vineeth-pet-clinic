@@ -1,10 +1,11 @@
 package vineeth.springframework.vineethpetclinic.services.Map;
 
+import org.springframework.stereotype.Service;
 import vineeth.springframework.vineethpetclinic.Models.Owner;
 import vineeth.springframework.vineethpetclinic.services.OwnerService;
 
 import java.util.Set;
-
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
