@@ -4,7 +4,7 @@ import vineeth.springframework.vineethpetclinic.Models.Pet;
 
 import java.util.Set;
 
-public interface PetService extends CrudService<PetService,Long>{
+public interface PetService extends CrudService<Pet,Long>{
 
 
 }

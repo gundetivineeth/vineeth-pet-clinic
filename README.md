@@ -73,7 +73,14 @@ this will only activate when their is profile active mentioned.
 *********************
 
 Here to use multi module we need to initially create modules using Intellj and then order the pom.xml
- 
+
+**********************
+Spring Framework Configuration
+
+1.XML Based Configuration
+2.Annotation Based Configuration
+3.Java Based Configuration --- most favoured by industry
+4.Groovy Bean Definition DSL configuration  
 
 
 

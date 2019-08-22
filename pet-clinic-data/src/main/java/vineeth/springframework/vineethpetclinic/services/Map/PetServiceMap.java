@@ -2,10 +2,11 @@ package vineeth.springframework.vineethpetclinic.services.Map;
 
 import vineeth.springframework.vineethpetclinic.Models.Pet;
 import vineeth.springframework.vineethpetclinic.services.CrudService;
+import vineeth.springframework.vineethpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet,Long> implements CrudService<Pet,Long> {
+public class PetServiceMap extends AbstractMapService<Pet,Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
